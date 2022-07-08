@@ -21,6 +21,7 @@ main {
 p {
 	font-size: 15px;
 	margin: 0;
+	text-align: center;
 }
 
 img {
@@ -39,6 +40,5 @@ img {
 	width: 280px;
 	height: 400px;
 	background-color: hsl(0, 0%, 100%);
-	/*border: 0 solid none;*/
 	border-radius: 10px;
 }
