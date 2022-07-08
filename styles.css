@@ -7,4 +7,38 @@
 body {
 	margin: 0;
 	background: hsl(220, 15%, 55%);
+	font-family: 'Outfit', sans-serif;
+	height: 100%;
+}
+
+main {
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	font-size: 15px;
+	margin: 0;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	border: 0 solid none;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+}
+.card {
+	width: 280px;
+	height: 400px;
+	background-color: hsl(0, 0%, 100%);
+	/*border: 0 solid none;*/
+	border-radius: 10px;
 }
