@@ -40,7 +40,6 @@ p:nth-of-type(2) {
 img {
 	width: 250px;
 	height: 250px;
-	border: 0 solid none;
 	border-radius: 10px;
 	margin: 10px auto;
 }
@@ -62,7 +61,8 @@ img {
 .attribution { 
 	font-size: 11px; 
 	text-align: center;
-	color: hsl(0, 0%, 0%); 
+	color: hsl(0, 0%, 0%);
+	margin: 0 auto; 
 }
 
 .attribution a { 
