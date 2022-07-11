@@ -1,12 +1,12 @@
 *,
-* ::before,
-* ::after {
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
-	background: hsl(220, 15%, 55%);
+	background-color: hsl(220, 15%, 55%);
 	font-family: 'Outfit', sans-serif;
 	height: 100%;
 }
@@ -20,10 +20,21 @@ main {
 
 p {
 	font-size: 15px;
-	margin: 0;
+	margin: 10px;
 	text-align: center;
 }
 
+p:nth-of-type(1) {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+p:nth-of-type(2) {
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	text-align: center;
+	margin-bottom: 15px;
+}
 img {
 	width: 250px;
 	height: 250px;
@@ -37,8 +48,8 @@ img {
 	flex-direction: column;
 }
 .card {
-	width: 280px;
-	height: 400px;
+	width: 270px;
+	height: autp;
 	background-color: hsl(0, 0%, 100%);
 	border-radius: 10px;
 }
