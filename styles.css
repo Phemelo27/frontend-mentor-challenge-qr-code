@@ -8,42 +8,43 @@ body {
     margin: 0;
     background-color: hsl(220, 15%, 55%);
     background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    min-height: 100%;
+    font-size: 15px;
     font-family: 'Outfit', sans-serif;
-    height: 100%;
 }
 
 main {
-    margin: 20px auto;
+    margin: 1em auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+
 p {
-    font-size: 15px;
-    margin: 10px;
+    font-size: 1rem;
+    margin: 0.5rem;
     text-align: center;
 }
 
 p:nth-of-type(1) {
-    font-size: 15px;
     font-weight: 700;
-    text-align: center;
 }
 
 p:nth-of-type(2) {
+    font-size: 0.75rem;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.75rem;
 }
 
-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 10px auto;
-}
 
 /* --  Card Section -- */
 
@@ -53,16 +54,15 @@ img {
 }
 
 .card {
-    width: 270px;
-    height: autp;
+    width: 17rem;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px hsl(220, 15%, 55%);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0.25rem hsl(220, 15%, 55%);
 }
 
 /*-- Attribution --*/
 .attribution {
-    font-size: 11px;
+    font-size: 0.75em;
     text-align: center;
     color: hsl(211, 12%, 48%);
     margin: 0 auto;
