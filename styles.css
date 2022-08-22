@@ -55,6 +55,7 @@ p:nth-of-type(2) {
 
 .card {
     width: 17rem;
+    
     background-color: hsl(0, 0%, 100%);
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem 0.25rem hsl(220, 15%, 55%);
