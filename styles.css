@@ -5,17 +5,17 @@
 }
 
 body {
-    margin: 0;
-    background-color: hsl(220, 15%, 55%);
     background-color: hsl(212, 45%, 89%);
-    width: 100%;
-    min-height: 100%;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 1rem 0;
 }
 
 main {
-    margin: 1em auto;
+    margin: 5em auto;
+    padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ main {
 img {
     width: 15rem;
     height: 15rem;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
     margin: 1rem auto;
 }
 
