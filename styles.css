@@ -10,12 +10,10 @@ body {
     font-family: 'Outfit', sans-serif;
     min-height: 100%;
     margin: 0;
-    padding: 1rem 0;
 }
 
 main {
     margin: 5em auto;
-    padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
